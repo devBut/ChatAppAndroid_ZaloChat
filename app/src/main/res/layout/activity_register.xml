@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/them_color_8"
+    tools:context=".Register">
+<TextView
+    android:textColor="#424242"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAllCaps="true"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:text="Register Here"/>
+    <EditText
+        android:id="@+id/r_name"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/round_back_white_10"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/r_mobile"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Mobile Number"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/round_back_white_10"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/round_back_white_10"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/r_registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Register Now"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/round_back_theme_1000"/>
+
+</LinearLayout>
